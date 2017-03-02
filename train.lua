@@ -1,3 +1,7 @@
+-- th train.lua -audio audio/sine_440.wav -model_file sine_440.t7 -batch_size 10
+--  -seq_length 10 -rnn_size 100 -num_partials 10 -mdn_components 1 -num_layers 1
+--
+
 local torch = require 'torch'
 local nn = require 'nn'
 require 'nngraph'
